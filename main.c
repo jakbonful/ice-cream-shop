@@ -4,7 +4,7 @@
 int main() {
 	int order = 0, time = 0;
 	float cost = 0.0;
-	printf("WELCOME TO FIIFI'S ICE CREAM SHOP\nWhat would you like to order\n");
+	printf("WELCOME TO John'S ICE CREAM SHOP\nWhat would you like to order\n");
 
 	do
 	{
@@ -147,7 +147,7 @@ int main() {
 	for (i = time; i >= 0; i--) {
 		printf("%d\n", i);
 	}
-	printf("Here is your order\nThanks for coming to Fiifi's Ice Cream");
+	printf("Here is your order\nThanks for coming to John's Ice Cream");
 
 
 
