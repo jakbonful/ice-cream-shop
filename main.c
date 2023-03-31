@@ -125,13 +125,13 @@ int main() {
 				printf("Invalid topping entry\n");
 				break;
 			}
-		} while (toppings <= 0);
-		char choice[20];
+		} while (toppings < 0);
+		int response;
 		printf("\nWould you like anything else?\n1 - Yes\n2 - No\n");
-		scanf("%s", choice);
+		scanf("%d", &response);
 
-		if (choice == "yes" || choice == "Yes") {
-			++order;
+		if (response == 1) {
+			order++;
 		}
 		else
 		{
